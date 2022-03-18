@@ -24,6 +24,9 @@
                 </ul>
             </nav>
             <nav class="mobile right">
+                <div class="botao-menu-mobile">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">Sobre</a></li>
@@ -36,6 +39,7 @@
         </header>
 
         <section class="banner-principal">
+        <div class="overlay"></div><!--overlay-->
             <div class="center">
             <form >
                 <h2>Qual o seu melhor e-mail?</h2>
@@ -44,6 +48,8 @@
             </form>
             </div><!--center-->
         </section><!--banner-principal-->
+
+
         <section class="descricao-autor">
             <div class="center">
             <div class="w50 left">
@@ -52,11 +58,12 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed risus tellus, pretium quis nibh ac, vulputate molestie nibh. Etiam non erat cursus, pretium odio id, euismod nibh. Pellentesque volutpat, ex ac hendrerit placerat, felis velit elementum nibh, quis sollicitudin justo nibh non neque. Donec a quam nec odio maximus vestibulum vel ac massa. Maecenas in fermentum nunc. Pellentesque vitae aliquet lacus.</p>
             </div><!--w50-->
             <div class="w50 left">
-                <img src="https://conteudo.imguol.com.br/c/entretenimento/47/2020/09/15/rowan-atkinson-como-mr-bean-1600189012561_v2_600x800.jpg.webp" width="250">
+                <img class="right" src="https://conteudo.imguol.com.br/c/entretenimento/47/2020/09/15/rowan-atkinson-como-mr-bean-1600189012561_v2_600x800.jpg.webp" width="250">
             </div><!--w50--> 
             <div class="clear"></div>
             </div><!--center-->    
         </section><!--Descricao-autor--->
+
 
         <section class="expecialidades">
             <div class="center">
@@ -78,6 +85,7 @@
                 </div><!--box-especialidade-->
             </div><!--Center-->
         </section><!--especialidades-->
+
 
         <section class="extras">
             <div class="center">
